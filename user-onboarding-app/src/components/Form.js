@@ -49,7 +49,7 @@ function Form(props){
          />   
        </label>
        <pre>{JSON.stringify(props.post, null, 2)}</pre>
-       <button disabled={props.buttonDisabled}>{'📩Submit'}</button>
+       <button disabled={props.buttonDisabled} cy-data ='button'>{'📩Submit'}</button>
       </form>
   )
 };
